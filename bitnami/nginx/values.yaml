@@ -12,8 +12,8 @@ global:
   ## imagePullSecrets:
   ##   - myRegistryKeySecretName
   ##
-  imagePullSecrets: 
-       - jspete
+  imagePullSecrets: []
+      
 
 ## @section Common parameters
 
@@ -86,10 +86,11 @@ image:
   ## pullSecrets:
   ##   - myRegistryKeySecretName
   ##
-  pullSecrets: []
+  pullSecrets: 
+       - jspete
   ## Set to true if you would like to see extra information on logs
   ##
-  debug: false
+  debug: true
 ## @param hostAliases Deployment pod host aliases
 ## https://kubernetes.io/docs/concepts/services-networking/add-entries-to-pod-etc-hosts-with-host-aliases/
 ##
