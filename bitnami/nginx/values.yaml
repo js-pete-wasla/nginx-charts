@@ -71,7 +71,7 @@ diagnosticMode:
 ##
 image:
   registry: jspete
-  repository: jspete/my-nginx
+  repository: my-nginx
   tag: latest
   digest: ""
   ## Specify a imagePullPolicy
